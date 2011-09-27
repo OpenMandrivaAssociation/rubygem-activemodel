@@ -23,6 +23,7 @@ BuildRequires:	rubygem(activesupport) = %{version}
 BuildRequires:	rubygem(builder)
 BuildRequires:	rubygem(i18n) => 0.4.2
 BuildRequires:	rubygem(mocha)
+BuildRequires:	ruby-rdoc
 BuildArch:	noarch
 Provides:	rubygem(%{gemname}) = %{version}
 
@@ -35,7 +36,7 @@ custom ORMs for use outside of the Rails framework.
 
 %package doc
 Summary: Documentation for %{name}
-Group: Documentation
+Group:	Development/Ruby
 Requires:%{name} = %{version}-%{release}
 
 %description doc
@@ -48,21 +49,9 @@ Documentation for %{name}
 %install
 mkdir -p %{buildroot}%{gemdir}
 gem install --local --install-dir %{buildroot}%{gemdir} \
-            --force --rdoc %{SOURCE0}
+	--force --rdoc %{SOURCE0}
 
 %check
-#rm -rf %{testdir}
-#mkdir % {testdir}
-#tar xzvf % {SOURCE1} -C % {testdir}
-#pushd % {testdir}
-
-# load_path is not available, remove its require#.
-#sed -i '1,2d' test/cases/helper.rb
-
-#RUBYOPT="rubygems I%{buildroot}%{geminstdir}/lib Itest" testrb test/*/*_test.rb test/*/*/*_test.rb
-
-#popd
-#rm -rf %{testdir}
 
 %files
 %defattr(-, root, root, -)

@@ -6,7 +6,7 @@
 
 Summary:	A toolkit for building modeling frameworks
 Name:		rubygem-%{gemname}
-Version:	3.1.0
+Version:	3.2.1
 Release:	%mkrel 1
 Group:		Development/Ruby
 License:	MIT

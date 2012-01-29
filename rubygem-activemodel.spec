@@ -64,4 +64,5 @@ gem install --local --install-dir %{buildroot}%{gemdir} \
 
 %files doc
 %defattr(-, root, root, -)
+%doc %{geminstdir}/CHANGELOG.md
 %doc %{gemdir}/doc/%{gemname}-%{version}

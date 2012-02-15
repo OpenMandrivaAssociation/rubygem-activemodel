@@ -7,7 +7,7 @@
 Summary:	A toolkit for building modeling frameworks
 Name:		rubygem-%{gemname}
 Version:	3.2.1
-Release:	%mkrel 1
+Release:	2
 Group:		Development/Ruby
 License:	MIT
 URL:		http://www.rubyonrails.org

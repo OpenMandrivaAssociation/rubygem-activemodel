@@ -57,3 +57,27 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files doc
 %{ruby_gemdir}/doc/%{rbname}-%{version}
+
+
+%changelog
+* Wed Apr 18 2012 Alexander Khrukin <akhrukin@mandriva.org> 3.2.3-1
++ Revision: 791661
+- version update 3.2.3
+
+* Fri Feb 17 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 3.2.1-3
++ Revision: 775606
+- regenereate spec with gem2rpm5
+
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 3.2.1-2
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 3.2.1-1
++ Revision: 769693
+- New release
+
+* Tue Sep 27 2011 Alexander Barakin <abarakin@mandriva.org> 3.1.0-1
++ Revision: 701475
+- missing rdoc fix
+- imported package rubygem-activemodel
+

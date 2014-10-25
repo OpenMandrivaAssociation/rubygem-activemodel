@@ -40,18 +40,18 @@ Documents, RDoc & RI documentation for %{name}.
 %gem_install
 
 %files
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model/locale
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model/locale/*.yml
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model/serializers
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model/serializers/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model/validations
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/active_model/validations/*.rb
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%dir %{gem_dir}/gems/%{rbname}-%{version}
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib
+%{gem_dir}/gems/%{rbname}-%{version}/lib/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/active_model
+%{gem_dir}/gems/%{rbname}-%{version}/lib/active_model/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/active_model/locale
+%{gem_dir}/gems/%{rbname}-%{version}/lib/active_model/locale/*.yml
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/active_model/serializers
+%{gem_dir}/gems/%{rbname}-%{version}/lib/active_model/serializers/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/active_model/validations
+%{gem_dir}/gems/%{rbname}-%{version}/lib/active_model/validations/*.rb
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
-%{ruby_gemdir}/doc/%{rbname}-%{version}
+%{gem_dir}/doc/%{rbname}-%{version}

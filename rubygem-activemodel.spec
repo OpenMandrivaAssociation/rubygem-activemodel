@@ -5,7 +5,7 @@ Summary:	A toolkit for building modeling frameworks (part of Rails)
 Name:		rubygem-%{rbname}
 
 Version:	4.1.1
-Release:	3
+Release:	4
 Group:		Development/Ruby
 License:	MIT
 URL:		http://www.rubyonrails.org

@@ -8,7 +8,7 @@ Version:	4.1.1
 Release:	4
 Group:		Development/Ruby
 License:	MIT
-URL:		http://www.rubyonrails.org
+URL:		https://www.rubyonrails.org
 Source0:	http://rubygems.org/downloads/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	rubygem(activesupport) = %{version}
